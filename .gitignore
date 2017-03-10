@@ -9,3 +9,4 @@ target
 node_modules/
 public/app/
 bin/
+upload/

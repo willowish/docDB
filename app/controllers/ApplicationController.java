@@ -1,17 +1,17 @@
 package controllers;
 
-import play.mvc.*;
-
-import views.html.*;
+import play.mvc.Controller;
+import play.mvc.Result;
+import views.html.drive;
 
 public class ApplicationController extends Controller {
 
-    public Result login() {
-        return ok(login.render("Hello"));
-    }
+	public Result login() {
+		return TODO;
+	}
 
-    public Result index() {
-        return ok(index.render("Your new application is dead."));
-    }
+	public Result index() {
+		return ok(drive.render(""));
+	}
 
 }
